@@ -1,0 +1,24 @@
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .pricing table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .pricing th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .pricing th {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,108 @@
+.footer-main {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.footer-main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-main__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.footer-main__nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-main__nav li {
+    margin: 5px 0;
+}
+
+.footer-main__nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.app__store {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 80rem;
+}
+
+.app__store li {
+    margin-right: 10px;
+}
+
+.app__store img {
+    width: 10rem;
+}
+
+.separator {
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.footer-big__lang {
+    position: relative;
+    display: inline-block;
+}
+
+.lang__current {
+    cursor: pointer;
+}
+
+.lang__menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.lang__menu li {
+    padding: 8px 16px;
+}
+
+.lang__menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.lang__current:hover .lang__menu {
+    display: block;
+}
+
+.footer-main__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan p {
+    margin: 0;
+}
+
+.social {
+    display: flex;
+}
+
+.social__item {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-size: cover;
+}
+
+.content-container{
+    display: flex;
+    gap: 25rem;
+}
+
